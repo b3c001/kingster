@@ -1,8 +1,9 @@
 
 # Kingster - Protect King.txt in THM's KOTH
-![Banner](images/banner.png)
+![Banner](images/usage.png)
 
-Kingster is a bash script designed to protect the king.txt file in the King of the Hill (KOTH) challenge on TryHackMe. It grants the player the "King" status by modifying file attributes and setting protections for king.txt.
+Kingster is a bash script designed to protect the king.txt file in the King of the Hill (KOTH) challenge on TryHackMe. 
+It grants the player the "King" status by modifying file attributes and setting protections for king.txt.
 
 ### WARNING!!! 
 This script is meant **only for KOTH purposes**, and misuse of it may harm your system.  
@@ -15,7 +16,7 @@ The script deletes the `chattr` binary, making it useless. Always conduct your r
 
 ### Usage:
 
-![Usage](images/usage.png)
+![Usage](images/banner.png)
 
 **Download the Script**:  
 On your target machine, use the following commands to download and execute the script:
@@ -36,7 +37,7 @@ Example:
 root@target:~# bash kingster.sh Player 10.10.0.1
 ```
 
-This will set **Player* as the King and protect the king.txt file.
+This will set **Player** as the King and protect the king.txt file.
 
 ---
 
@@ -44,7 +45,7 @@ This will set **Player* as the King and protect the king.txt file.
 
 When you run the script, you will see a colorful and interactive output like the following:
 
-```bash
+```
 [+] Downloading Dependencies.
 [+] Resetting attributes of /root/king.txt and removing it.
 [+] Setting Player as King.
@@ -53,7 +54,7 @@ When you run the script, you will see a colorful and interactive output like the
 
 If the process is successful, the following success message will be displayed:
 
-```bash
+```
 [+] Congratulations Player, You are the new King of the game!
 ```
 
@@ -70,4 +71,3 @@ This script is released under the MIT License.
 ## More Information:
 For more details, visit the GitHub repository:  
 [https://github.com/b3c001/Kingster](https://github.com/b3c001/Kingster)
-```
