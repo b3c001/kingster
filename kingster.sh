@@ -4,7 +4,7 @@
 # Kingster script to protect king.txt in thm's koth         #
 #                                 Detrew is the best waifu! #
 # Site: https://github.com/b3c001/Kingster                  #
-# Author: CeloXSec <b3c001@proton.me>                       #
+# Author: Marcelo  <b3c001@proton.me>                       #
 #############################################################
 # This program takes the nickname and IP of the player as   #
 # parameters and downloads the chattr binary to set         #
@@ -14,21 +14,21 @@
 # root@10-10-0-1:~# python3 -m http.server 80               #
 # root@target:~# wget 10.10.0.1/kingster.sh                 #
 # root@target:~# chmod +x kingster.sh                       #
-# root@target:~# bash kingster.sh CeloXSec 10.10.0.1        #
+# root@target:~# bash kingster.sh Player   10.10.0.1        #
 #                                                           #
 # Resetting attributes of /root/king.txt and removing it.   #
 #                                                           #
 # cur attrs: 0x00000000, mask: 0x00088030                   #
 # new attrs: 0x00000000                                     #
 #                                                           #
-# Setting CeloXSec as the King                              #
+# Setting Player as the King                                #
 #                                                           #
 # Setting attributes of /root/king.txt                      #
 #                                                           #
 # cur attrs: 0x00000000, mask: 0x00000010                   #
 # new attrs: 0x00000010                                     #
 #                                                           #
-# [+] Congrats CeloXSec, You are the new King of the game!  #
+# [+] Congrats Player, You are the new King of the game!    #
 #                                                           #
 # Version 1.0                                               #
 # 09/03/23                                                  #
