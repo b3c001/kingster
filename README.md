@@ -33,10 +33,10 @@ bash kingster.sh <nickname> <vpn_ip>
 Example:
 
 ```bash
-root@target:~# bash kingster.sh CeloXSec 10.10.0.1
+root@target:~# bash kingster.sh Player 10.10.0.1
 ```
 
-This will set **CeloXSec** as the King and protect the king.txt file.
+This will set **Player* as the King and protect the king.txt file.
 
 ---
 
@@ -44,30 +44,28 @@ This will set **CeloXSec** as the King and protect the king.txt file.
 
 When you run the script, you will see a colorful and interactive output like the following:
 
-![Output](images/success.png)
-
 ```bash
 [+] Downloading Dependencies.
 [+] Resetting attributes of /root/king.txt and removing it.
-[+] Setting CeloXSec as King.
+[+] Setting Player as King.
 [+] Setting attributes for /root/king.txt (protecting king.txt).
 ```
 
 If the process is successful, the following success message will be displayed:
 
 ```bash
-[+] Congratulations CeloXSec, You are the new King of the game!
+[+] Congratulations Player, You are the new King of the game!
 ```
 
 ---
 
 ## Author:
-**CeloXSec**  
+**0xB3C001**  
 Email: [b3c001@proton.me](mailto:b3c001@proton.me)
 
 ## License:
 This script is released under the MIT License.  
-![License](LICENSE)
+![](LICENSE)
 
 ## More Information:
 For more details, visit the GitHub repository:  
